@@ -10,7 +10,7 @@ const Footer = () => {
                 <Typography className='footer_name' style={{fontWeight: '600'}}>{resumeData.name}</Typography>
             </div>
             <div className='footer_right'>
-                <Typography className='footer_copyright'> Developed by <a href='/'> @shalawfatah </a> - Design: <a href='https://themeforest.com/tavonline' target='_blank'>@tavonline.net</a></Typography>
+                <Typography className='footer_copyright'> Developed by <a href='/'> @shalawfatah </a> - Design: <a href='https://themeforest.com/tavonline' target='_blank' rel="noreferrer">@tavonline.net</a></Typography>
             </div>            
         </div>
     )

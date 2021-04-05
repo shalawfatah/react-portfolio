@@ -31,7 +31,7 @@ const Header = (props) => {
                 <div className='header_right'>
                     {Object.keys(resumeData.socials).map(key => {
                         return (
-                        <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a>
+                        <a href={resumeData.socials[key].link} target='_blank'  rel="noreferrer">{resumeData.socials[key].icon}</a>
                         )
                     })}
                     <CustomButton text={'Hire Me'} icon={<Telegram />} />

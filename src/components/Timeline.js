@@ -54,7 +54,7 @@ export const CustomTimelineItem = ({title, text, link}) => (
             <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent className='timeline_content'>
-            {link ? (<Typography className='timeline_text'><span style={{fontWeight: '700'}}>{title}: </span>{' '}<a href={link} target='_blank'>{text}</a></Typography>)
+            {link ? (<Typography className='timeline_text'><span style={{fontWeight: '700'}}>{title}: </span>{' '}<a href={link} target='_blank'  rel="noreferrer">{text}</a></Typography>)
             : (<Typography className='timeline_text'><span style={{fontWeight: '700'}}>{title}: </span>{text}</Typography>)}
         </TimelineContent>
     </TimelineItem>
