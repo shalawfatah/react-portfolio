@@ -1,0 +1,77 @@
+.timeline_all_content_work {
+    margin-top: -5px !important;
+}
+.timeline {
+    padding: 0 !important;
+}
+.timeline .timeline_header {
+    padding-top: 12px;
+}
+.timeline .timeline_firstItem {
+    min-height: 80px !important;
+}
+.timeline .MuiTimelineItem-root {
+    min-height: 0px;
+}
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+    display: none;
+}
+.timeline .timeline_dot_header {
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    font-size: small;
+    padding: 10px;
+}
+.timeline .timeline_dot {
+    border-color: var(--primary-color);
+    padding: 2px;
+}
+
+.timeline .MuiTimelineConnector-root {
+    background-color: var(--secondary-color) !important;
+}
+.timeline .separator_padding {
+    padding-left: 20px !important;
+}
+.timeline .timeline_content {
+    padding-top: 0px !important;
+    margin-bottom: 20px;
+}
+.timeline_dot_header_work {
+    border-color: var(--primary-color);
+    background-color: transparent;
+}
+.timeline_content_work {
+    margin-top: -5px;
+}
+.timeline_header_work {
+    font-weight: 700;
+}
+
+/* Services */
+.service {
+    height: 100%;
+    text-align: center;
+}
+.service .service_title {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+    text-align: center !important;
+}
+.service .service_description {
+    color: #989898 !important;
+    border-color: var(--primary-color) !important;
+    margin-right: 5px !important;
+    text-align: center;
+}
+.service_icon > .MuiSvgIcon-root {
+    font-size: 46px !important;
+    margin-left: 0 i !important;
+    font-weight: 300 !important;
+    color: darkslategray !important;
+}
+
+
+
+/* End of Services */
