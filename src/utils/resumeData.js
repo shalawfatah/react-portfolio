@@ -78,7 +78,7 @@ export default {
             description: 'Studied this multidisciplinary field in the newly-founded American University in Iraq.'
         },
         {
-            title: '+10 Online Coding Certificates',
+            title: '+5 Online Coding Certificates',
             date: '2018 - Present',
             school: 'Online',
             description: 'Udemy, Frontend Masters, and StackOverflow are places I spent time on most of the time.'
