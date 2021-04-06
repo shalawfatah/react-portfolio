@@ -40,16 +40,10 @@ export default {
     about: "I'm a self taught web developer, with a major focus on front-end development. I love working with Javascript, my favorite library for front-end is React. But enough about coding. What I love more is working with innovative and creative people, people with a grand vision and great inspiration. I love to help those who want to help the community. I want to work on projects that have a clear vision for the betterment of the society. If you have such a project, let me know.",
     experiences: [
         {
-            title: 'Front/Backend Web Developer',
-            date: '2021 - Present',
-            company: 'eVisionMedia',
-            description: 'As a digitl marketing agency, I had to take care of the maintenace of many websites, and also built websites with different tech-stacks.'
-        },
-        {
             title: 'Web Developer',
             date: '2018 - 2021',
             company: 'Freelance',
-            description: 'My work was two-folds, 1) build websites for clients. 2) take care of the maintenance and SEO on regular basis.'
+            description: 'My work was two-folds, first, I have to build websites for clients. I mostly use Wordpress and Shopify. Second, take care of the maintenance and SEO on regular basis.'
         },
         {
             title: 'Creative Officer',
