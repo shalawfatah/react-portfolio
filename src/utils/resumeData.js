@@ -147,6 +147,17 @@ export default {
             ]
         },
         {
+            tag: 'React',
+            image: 'https://image.shutterstock.com/image-vector/weather-forecast-poster-temperature-humidity-260nw-1711691812.jpg',
+            title: 'Weather Progressive Web App',
+            description: 'Using React and Open Weather API, I created this app to check the weather. However, the main objective was to include the progressive web app (PW) functionality, which allows the app to work offline and be installed as a standalone app on smartphones and computers.',
+            caption: 'This is a progressive web app created with React, can be installed on computers and smartphones',
+            links: [
+                {link: 'https://react-movie-api-app.netlify.app/', icon: <Language />},
+                {link: 'https://github.com/shalawfatah/react-movie-app-api', icon: <GitHub />}
+            ]
+        },
+        {
             tag: 'Wordpress',
             image: 'https://cdn.dribbble.com/users/4482322/screenshots/9910720/media/6d898ae77a749ee4637333bd2c99f0cc.jpg?compress=1&resize=1600x1200',
             title: 'Ideation Resources Limited',
@@ -163,7 +174,7 @@ export default {
             description: 'This website is built on Wordpress, using Elementor Page Builder and several other plugins. SEO and speed was the focus for the client. I tried to make SEO especially in focus for this website.',
             caption: 'I built this portfolio for a Vancouver-based renovation company.',
             links: [
-                {link: 'https://cdn.dribbble.com/users/4482322/screenshots/15195631/media/65604bfc1d485475b2a7883acb89d63e.png?compress=1&resize=1600x1200', icon: <Language />},
+                {link: 'https:vancrownhome.com', icon: <Language />},
             ]
         },
         {

@@ -1,11 +1,26 @@
-import { Grid, TextField, Typography } from '@material-ui/core'
-import React from 'react'
+import { FormControl, Grid, TextField, Typography } from '@material-ui/core'
+import React, {useState} from 'react'
 import resumeData from '../../utils/resumeData'
 import Button from '../Button'
 import './Contact.css'
-
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+    const [show, setShow] = useState(false)
+
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('gmail_service', 'template_einiwhl', e.target, 'user_PATc9tPcKFGIgwANvfTxa')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          })
+          e.target.reset()
+      }
+      const handleShow = () => {
+          console.log('Clicked')
+      }
     return (
         <Grid container className='section' spacing={3}>
             <Grid item xs={12} md={7}>
@@ -17,17 +32,18 @@ const Contact = () => {
                     <Grid item xs={12}>
                         <Grid container spacing={3}>
                             <Grid item xs={12} sm={6} md={6}>
-                                <TextField fullWidth name='name' label='Name ' />
+                                <TextField fullWidth name='user_name' label='Name ' />
                             </Grid>
                             <Grid item xs={12} sm={6} md={6}>
-                                <TextField fullWidth name='email' label='Email ' />
+                                <TextField fullWidth name='user_email' label='Email ' />
                             </Grid>
                             <Grid item xs={12}>
                                 <TextField fullWidth name='message' multiline rows={4} label='Message... ' />
                             </Grid>
                             <Grid item xs={12} >
-                                <Button text='Submit' />
+                                <Button text='Submit' onClick={sendEmail}/>
                             </Grid>
+                            {show ? <Typography variant='body2' >Thanks for your message!</Typography> : null }
                         </Grid>
                     </Grid>
                 </Grid>

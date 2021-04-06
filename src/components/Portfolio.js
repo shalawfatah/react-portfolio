@@ -56,6 +56,7 @@ const Portfolio = () => {
             <DialogContent>
                 <Typography className='projectDialog_description'>{projectDialogue.description}</Typography>
             </DialogContent>
+            <Typography variant='caption' style={{textAlign:'center'}}>Visit this project by clicking the icons below</Typography>
             <DialogActions className='projectDialog_actions'>
                 {projectDialogue?.links?.map(link => {
                     return (
