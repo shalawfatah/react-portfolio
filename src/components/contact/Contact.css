@@ -13,4 +13,8 @@
     font-size: 16px !important;
     margin-right: 10px;
     color: black;
+    transition: all .3s ease-in-out;
+}
+.contactInfo_social > a > .MuiSvgIcon-root:hover {
+    color: var(--primary-color);
 }

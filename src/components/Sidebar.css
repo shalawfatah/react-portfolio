@@ -57,3 +57,6 @@
     align-items: center;
     margin-top: 10px;
 }
+.button_container a {
+    text-decoration: none !important;
+}

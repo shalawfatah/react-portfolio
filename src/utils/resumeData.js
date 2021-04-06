@@ -115,74 +115,95 @@ export default {
     portfolio: [
         {
             tag: 'React',
-            image: 'https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg',
-            title: 'Project 1',
-            description: 'lorem22 asdsadsd awewewe',
-            caption: 'A short description',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/15076759/media/e7a3cf66762beb37318baba4f5bb3bab.png?compress=1&resize=1600x1200',
+            title: 'Profile',
+            description: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend. The tech used in this project includes major React features like hooks, modular design, API calls, etc.',
+            caption: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend.',
             links: [
-                {link: 'https://google.com', icon: <YouTube />},
-                {link: 'https://google.com', icon: <GitHub />},
-                {link: 'https://google.com', icon: <Language />},
+                {link: 'https://shalaw.netlify.app', icon: <Language />},
+                {link: 'https://github.com/shalawfatah/shalaw-portfolio', icon: <GitHub />}
             ]
         },
         {
             tag: 'React',
-            image: 'https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg',
-            title: 'React Project 2',
-            description: 'lorem22 asdsadsd awewewe',
-            caption: 'A short description',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/15425359/media/2bb9f97cbff231e0021fe75cb8733481.png?compress=1&resize=1600x1200',
+            title: 'Worldwide Bee Website',
+            description: 'I built this website as a volunteer with a group of volunteers, from design to development, using GatsbyJS and Strapi CMS. Many technologies have been used in this website, including GIS [custom map and geolocation functionality], Tailwind CSS, MailChimp, and many others',
+            caption: 'This is a website I built with React and Strapi, using many frontend tecnologies.',
             links: [
-                {link: 'https://google.com', icon: <YouTube />},
-                {link: 'https://google.com', icon: <GitHub />},
-                {link: 'https://google.com', icon: <Language />},
+                {link: 'https://www.worldwidebee.org/', icon: <Language />},
+                {link: 'https://github.com/shalawfatah/wwb-react-strapi', icon: <GitHub />}
             ]
         },
         {
-            tag: 'Javascript',
-            image: 'https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg',
-            title: 'Wordpress Project 1',
-            description: 'lorem22 asdsadsd awewewe',
-            caption: 'A short description',
+            tag: 'React',
+            image: 'https://www.fossmint.com/wp-content/uploads/2020/03/Watch-Free-Movies-Online.png',
+            title: 'Movie App',
+            description: 'This movie app is built with React and using MovieDB API.',
+            caption: 'This movie app is built with React and using MovieDB API. Many features of React has been used here, including live search, hooks, and API.',
             links: [
-                {link: 'https://google.com', icon: <YouTube />},
-                {link: 'https://google.com', icon: <GitHub />},
-                {link: 'https://google.com', icon: <Language />},
+                {link: 'https://react-movie-api-app.netlify.app/', icon: <Language />},
+                {link: 'https://github.com/shalawfatah/react-movie-app-api', icon: <GitHub />}
             ]
         },
         {
             tag: 'Wordpress',
-            image: 'https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg',
-            title: 'Shopify Project 1',
-            description: 'lorem22 asdsadsd awewewe',
-            caption: 'A short description',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/9910720/media/6d898ae77a749ee4637333bd2c99f0cc.jpg?compress=1&resize=1600x1200',
+            title: 'Ideation Resources Limited',
+            description: 'This website is built on Wordpress, using Elementor Page Builder and many other plugins. The client wanted a fast website with some illustrations to deliver the message that they want. ',
+            caption: 'I built this website for a small business based in Vancouver',
             links: [
-                {link: 'https://google.com', icon: <YouTube />},
-                {link: 'https://google.com', icon: <GitHub />},
-                {link: 'https://google.com', icon: <Language />},
+                {link: 'https://ideationresources.com/', icon: <Language />},
             ]
         },
         {
-            tag: 'Python',
-            image: 'https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg',
-            title: 'Python Project 1',
-            description: 'lorem22 asdsadsd awewewe',
-            caption: 'A short description',
+            tag: 'Wordpress',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/15195631/media/65604bfc1d485475b2a7883acb89d63e.png?compress=1&resize=1600x1200',
+            title: 'Vancrown Home Service',
+            description: 'This website is built on Wordpress, using Elementor Page Builder and several other plugins. SEO and speed was the focus for the client. I tried to make SEO especially in focus for this website.',
+            caption: 'I built this portfolio for a Vancouver-based renovation company.',
             links: [
-                {link: 'https://google.com', icon: <YouTube />},
-                {link: 'https://google.com', icon: <GitHub />},
-                {link: 'https://google.com', icon: <Language />},
+                {link: 'https://cdn.dribbble.com/users/4482322/screenshots/15195631/media/65604bfc1d485475b2a7883acb89d63e.png?compress=1&resize=1600x1200', icon: <Language />},
             ]
         },
         {
-            tag: 'PHP',
-            image: 'https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg',
-            title: 'PHP Project 1',
-            description: 'lorem22 asdsadsd awewewe',
-            caption: 'A short description',
+            tag: 'Wordpress',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/10594776/media/a962b277106fe2032d32f0fe92500e14.png?compress=1&resize=1600x1200',
+            title: 'Personal Portfolio',
+            description: 'This personal portfolio is made with Wordpress, using Elementor Page Builder, Astra theme, and with several modifications. Some plugins have been used to make the website better. ',
+            caption: 'This is a personal portfolio made with Wordpress',
             links: [
-                {link: 'https://google.com', icon: <YouTube />},
-                {link: 'https://google.com', icon: <GitHub />},
-                {link: 'https://google.com', icon: <Language />},
+                {link: 'https://shalaw.tech', icon: <Language />},
+            ]
+        },
+        {
+            tag: 'Shopify',
+            image: 'https://egnition.io/web/wp-content/uploads/2020/07/how-shopify-works.jpg',
+            title: 'The Mane Avenue Website',
+            description: 'I built this website for a client in The Mane Avenue with Shopify. The client specifically asked for Shopify for the ease of use when it comes to ecommerce. The theme behind this is Debutify, many marginal apps have been used in the background to make the process smoother.',
+            caption: 'I built this webshop for a client in The Mane Avenue',
+            links: [
+                {link: 'https://themaneavenue.ca/', icon: <Language />},
+            ]
+        },
+        {
+            tag: 'Shopify',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/9933736/media/1686bccfb8be9ab293e3aeb0f3824737.jpg?compress=1&resize=1600x1200',
+            title: 'Fast Fashion Finds Website',
+            description: 'I built this website for a client in Fast Fashion Finds with Shopify. The client asked for an accessible webshop which she can run by herlsef without the need of a web developer to maintain. The theme behind this is Debutify, many marginal apps have been used in the background to make the process smoother.',
+            caption: 'I built this webshop for a client in Fast Fashion Finds',
+            links: [
+                {link: 'https://fastfashionfinds.com', icon: <Language />},
+            ]
+        },
+        {
+            tag: 'Javascript',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/10115255/media/f2e5eeaa426c7a700bab2b002327c534.jpg?compress=1&resize=1600x1200',
+            title: 'Web Developer Profile',
+            description: 'I built this web developer profile with Vanilla Javascript, mostly using DOM manipulator to animate the website and make it work smoothly. Several animations have been used, including sliders, on mouse hover photo change, etc.',
+            caption: 'A web developer profile built with Vanilla Javascript',
+            links: [
+                {link: 'https://shalaw-sec-profile.netlify.app/', icon: <Language />},
             ]
         }
     ]

@@ -35,6 +35,10 @@
 .header .header_right > a > .MuiSvgIcon-root {
     font-size: 16px;
     margin-right: 12px;
+    color: var(--secondary-color);
+    transition: all .3s ease-in-out;
+}
+.header .header_right > a > .MuiSvgIcon-root:hover {
     color: var(--primary-color);
 }
 
@@ -43,4 +47,7 @@
 }
 .header .header_navlink {
     padding: 0;
+}
+a {
+    text-decoration: none !important;
 }

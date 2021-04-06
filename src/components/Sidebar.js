@@ -8,6 +8,7 @@ import resumeData from '../utils/resumeData'
 import ContactsIcon from '@material-ui/icons/Contacts';
 import CustomButton from './Button'
 import GetAppIcon from '@material-ui/icons/GetApp';
+import CV from '../assets/files/cv_download.pdf'
 
 
 const Sidebar = () => {
@@ -34,7 +35,9 @@ const Sidebar = () => {
                 </CustomTimeLine>
                 <br />
                 <div className='button_container'>
+                <a href={CV} target='_blank' rel="noreferrer">
                 <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
+                </a>
                 </div>
             </div>
         </div>

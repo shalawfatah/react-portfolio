@@ -34,7 +34,9 @@ const Header = (props) => {
                         <a href={resumeData.socials[key].link} target='_blank'  rel="noreferrer">{resumeData.socials[key].icon}</a>
                         )
                     })}
+                    <Nav.Link as={NavLink} to='/contact'>
                     <CustomButton text={'Hire Me'} icon={<Telegram />} />
+                    </Nav.Link>
                 </div>
             </Navbar.Collapse>
         </Navbar>

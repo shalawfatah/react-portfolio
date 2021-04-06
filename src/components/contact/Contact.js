@@ -63,7 +63,7 @@ const Contact = () => {
                                     {Object.keys(resumeData.socials).map(social => {
                                         return (
                                             <Grid item className='contactInfo_social'>
-                                                <a href={resumeData.socials[social].link}>{resumeData.socials[social].icon}</a>
+                                                <a href={resumeData.socials[social].link} target='_blank' rel='noreferrer'>{resumeData.socials[social].icon}</a>
                                             </Grid>
                                         )
                                     })}
