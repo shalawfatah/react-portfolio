@@ -174,7 +174,7 @@ export default {
             description: 'This website is built on Wordpress, using Elementor Page Builder and several other plugins. SEO and speed was the focus for the client. I tried to make SEO especially in focus for this website.',
             caption: 'I built this portfolio for a Vancouver-based renovation company.',
             links: [
-                {link: 'https//:vancrownhome.com', icon: <Language />},
+                {link: 'https//vancrownhome.com', icon: <Language />},
             ]
         },
         {
@@ -216,7 +216,7 @@ export default {
             links: [
                 {link: 'https://shalaw-sec-profile.netlify.app/', icon: <Language />},
             ]
-        }
+        },
     ]
 }
 
