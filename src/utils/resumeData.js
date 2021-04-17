@@ -137,6 +137,17 @@ export default {
         },
         {
             tag: 'React',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/15076759/media/e7a3cf66762beb37318baba4f5bb3bab.png?compress=1&resize=1600x1200',
+            title: 'Profile',
+            description: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend. The tech used in this project includes major React features like hooks, modular design, API calls, etc.',
+            caption: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend.',
+            links: [
+                {link: 'https://shalaw.netlify.app', icon: <Language />},
+                {link: 'https://github.com/shalawfatah/shalaw-portfolio', icon: <GitHub />}
+            ]
+        },
+        {
+            tag: 'React',
             image: 'https://www.fossmint.com/wp-content/uploads/2020/03/Watch-Free-Movies-Online.png',
             title: 'Movie App',
             description: 'This movie app is built with React and using MovieDB API.',
@@ -153,8 +164,8 @@ export default {
             description: 'Using React and Open Weather API, I created this app to check the weather. However, the main objective was to include the progressive web app (PW) functionality, which allows the app to work offline and be installed as a standalone app on smartphones and computers.',
             caption: 'This is a progressive web app created with React, can be installed on computers and smartphones',
             links: [
-                {link: 'https://react-movie-api-app.netlify.app/', icon: <Language />},
-                {link: 'https://github.com/shalawfatah/react-movie-app-api', icon: <GitHub />}
+                {link: 'https://react-weather-pwa-app.netlify.app/', icon: <Language />},
+                {link: 'https://github.com/shalawfatah/weather-app', icon: <GitHub />}
             ]
         },
         {
@@ -174,7 +185,7 @@ export default {
             description: 'This website is built on Wordpress, using Elementor Page Builder and several other plugins. SEO and speed was the focus for the client. I tried to make SEO especially in focus for this website.',
             caption: 'I built this portfolio for a Vancouver-based renovation company.',
             links: [
-                {link: 'https:vancrownhome.com', icon: <Language />},
+                {link: 'https://vancrownhome.com', icon: <Language />},
             ]
         },
         {
@@ -216,7 +227,7 @@ export default {
             links: [
                 {link: 'https://shalaw-sec-profile.netlify.app/', icon: <Language />},
             ]
-        }
+        },
     ]
 }
 
