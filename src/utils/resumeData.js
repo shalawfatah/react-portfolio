@@ -120,7 +120,7 @@ export default {
             description: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend. The tech used in this project includes major React features like hooks, modular design, API calls, etc.',
             caption: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend.',
             links: [
-                {link: 'https://shalaw.netlify.app', icon: <Language />},
+                {link: 'https://shalaw-portfolio.netlify.app', icon: <Language />},
                 {link: 'https://github.com/shalawfatah/shalaw-portfolio', icon: <GitHub />}
             ]
         },
