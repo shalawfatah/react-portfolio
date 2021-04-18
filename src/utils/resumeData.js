@@ -97,7 +97,7 @@ export default {
     skills: [
         {
             title: 'Front-end',
-            description: ['Javascript', 'React', 'TypeScript', 'Bootstrap', 'Tailwind', 'Material-UI']
+            description: ['JS', 'React', 'Typescript', 'Redux', 'CSS', 'Bootstrap', 'Tailwind' ]
         },
         {
             title: 'Back-end',
@@ -109,7 +109,7 @@ export default {
         },
         {
             title: 'Source Control',
-            description: ['Git', 'Github', 'Scrum/Agile', 'cPanel']
+            description: ['Git', 'Docker', 'Linux', 'cPanel']
         }
     ],
     portfolio: [
