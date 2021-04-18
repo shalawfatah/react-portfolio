@@ -101,11 +101,11 @@ export default {
         },
         {
             title: 'Back-end',
-            description: ['Node', 'Express', 'PHP']
+            description: ['Node', 'Express', 'PHP', 'API']
         },
         {
             title: 'Databases',
-            description: ['Firebase', 'MongoDB', 'MYSQL', 'POSTGRESQL']
+            description: ['Firebase', 'MongoDB', 'MYSQL', 'POSTGRESQL', 'Redis']
         },
         {
             title: 'Source Control',
