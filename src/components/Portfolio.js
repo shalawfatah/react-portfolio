@@ -39,7 +39,7 @@ const Portfolio = () => {
                                                     <div className="techstack">
                                                     {project.stack.map(st => {
                                                                             return (
-                                                                                <Typography variant={'body2'} className='techStack'>{st}</Typography>
+                                                                                <Typography variant={'body2'} className='techStack' style={{marginRight: '2px'}}>{st}</Typography>
                                                                             )
                                                                         })}
                                                     </div>
