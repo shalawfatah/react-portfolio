@@ -36,6 +36,7 @@ const Portfolio = () => {
                                             <CardMedia className='customCard_image' image={project.image} title={project.title} />
                                                 <CardContent>
                                                     <Typography variant={'body2'} className='customCard_title'>{project.title}</Typography>
+                                                    <Typography variant={'body'} className='customCard_title'>{project.stack.map(st => <p>{h2}</p>)}</Typography>
                                                     <Typography className='customCard_description' variant='body2'>{project.caption}</Typography>
                                                 </CardContent>
                                         </CardActionArea>
