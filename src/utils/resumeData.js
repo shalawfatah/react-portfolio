@@ -97,7 +97,7 @@ export default {
     skills: [
         {
             title: 'Front-end',
-            description: ['JS', 'React', 'Typescript', 'Redux', 'CSS', 'Bootstrap', 'Tailwind' ]
+            description: ['JS', 'React', 'Typescript', 'Redux', 'CSS', 'SASS' ]
         },
         {
             title: 'Back-end',
