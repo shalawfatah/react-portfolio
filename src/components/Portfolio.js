@@ -38,7 +38,7 @@ const Portfolio = () => {
                                                     <Typography variant={'body2'} className='customCard_title'>{project.title}</Typography>
                                                     {project.stack.map(st => {
                                                         return (
-                                                            <Typography variant={'body'} className='techStack'>{st}</Typography>
+                                                            <Typography variant={'body2'} className='techStack'>{st}</Typography>
                                                         )
                                                     })}
                                                     <Typography className='customCard_description' variant='body2'>{project.caption}</Typography>
