@@ -54,7 +54,7 @@ const Portfolio = () => {
             <DialogTitle onClose={() => setProjectDialogue(false)}>{projectDialogue.title}</DialogTitle>
             <img src={projectDialogue.image} alt='' className='projectDialog_image' className='projectDialog_image' />
             <DialogContent>
-            {project.stack.map(st => {
+            {projectDialogue.stack.map(st => {
                             return (
                                 <Typography variant={'body2'} className='techStack'>{st}</Typography>
                             )
