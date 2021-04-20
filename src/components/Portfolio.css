@@ -70,6 +70,7 @@
 }
 .techstack {
     display: flex;
+    flex-wrap: wrap;
 }
 .techStack {
     background-color: grey;
@@ -77,6 +78,6 @@
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 4px;
+    font-weight: 600;
     margin: 4px;
-    font-weight: 500;
 }

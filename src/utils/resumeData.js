@@ -117,7 +117,7 @@ export default {
             tag: 'React',
             image: 'https://cdn.dribbble.com/users/4482322/screenshots/15076759/media/e7a3cf66762beb37318baba4f5bb3bab.png?compress=1&resize=1600x1200',
             title: 'Profile',
-            stack: ['GatsbyJS', 'Strapi CMS', 'Tailwind CSS'],
+            stack: ['Gatsby', 'Strapi', 'Tailwind'],
             description: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend. The tech used in this project includes major React features like hooks, modular design, API calls, etc.',
             caption: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend.',
             links: [
@@ -129,7 +129,7 @@ export default {
             tag: 'React',
             image: 'https://cdn.dribbble.com/users/4482322/screenshots/15425359/media/2bb9f97cbff231e0021fe75cb8733481.png?compress=1&resize=1600x1200',
             title: 'Worldwide Bee Website',
-            stack: ['GatsbyJS', 'LeafletJS', 'GIS', 'Strapi CMS', 'Tailwind CSS'],
+            stack: ['Gatsby', 'Leaflet', 'GIS', 'Strapi', 'Tailwind'],
             description: 'I built this website as a volunteer with a group of volunteers, from design to development, using GatsbyJS and Strapi CMS. Many technologies have been used in this website, including GIS [custom map and geolocation functionality], Tailwind CSS, MailChimp, and many others',
             caption: 'This is a website I built with React and Strapi, using many frontend tecnologies.',
             links: [
@@ -141,7 +141,7 @@ export default {
             tag: 'React',
             image: 'https://cdn.dribbble.com/users/4482322/screenshots/15076759/media/e7a3cf66762beb37318baba4f5bb3bab.png?compress=1&resize=1600x1200',
             title: 'Profile',
-            stack: ['GatsbyJS, Strapi CMS', 'Tailwind CSS'],
+            stack: ['Gatsby', 'Strapi', 'Tailwind'],
             description: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend. The tech used in this project includes major React features like hooks, modular design, API calls, etc.',
             caption: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend.',
             links: [
@@ -153,7 +153,7 @@ export default {
             tag: 'React',
             image: 'https://www.fossmint.com/wp-content/uploads/2020/03/Watch-Free-Movies-Online.png',
             title: 'Movie App',
-            stack: ['React', 'API', 'Styled Components'],
+            stack: ['React', 'API', 'Bootstrap'],
             description: 'This movie app is built with React and using MovieDB API.',
             caption: 'This movie app is built with React and using MovieDB API. Many features of React has been used here, including live search, hooks, and API.',
             links: [
@@ -232,7 +232,7 @@ export default {
             tag: 'Javascript',
             image: 'https://cdn.dribbble.com/users/4482322/screenshots/10115255/media/f2e5eeaa426c7a700bab2b002327c534.jpg?compress=1&resize=1600x1200',
             title: 'Web Developer Profile',
-            stack: ['Javascript', 'CSS', 'HTML'],
+            stack: ['JS', 'CSS', 'HTML'],
             description: 'I built this web developer profile with Vanilla Javascript, mostly using DOM manipulator to animate the website and make it work smoothly. Several animations have been used, including sliders, on mouse hover photo change, etc.',
             caption: 'A web developer profile built with Vanilla Javascript',
             links: [
