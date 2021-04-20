@@ -36,6 +36,13 @@ const Portfolio = () => {
                                             <CardMedia className='customCard_image' image={project.image} title={project.title} />
                                                 <CardContent>
                                                     <Typography variant={'body2'} className='customCard_title'>{project.title}</Typography>
+                                                    <div className="techstack">
+                                                    {project.stack.map(st => {
+                                                                            return (
+                                                                                <Typography variant={'body2'} className='techStack'>{st}</Typography>
+                                                                            )
+                                                                        })}
+                                                    </div>
                                                     <Typography className='customCard_description' variant='body2'>{project.caption}</Typography>
                                                 </CardContent>
                                         </CardActionArea>
@@ -54,11 +61,6 @@ const Portfolio = () => {
             <DialogTitle onClose={() => setProjectDialogue(false)}>{projectDialogue.title}</DialogTitle>
             <img src={projectDialogue.image} alt='' className='projectDialog_image' className='projectDialog_image' />
             <DialogContent>
-            {projectDialogue.stack.map(st => {
-                            return (
-                                <Typography variant={'body2'} className='techStack'>{st}</Typography>
-                            )
-                        })}
                 <Typography className='projectDialog_description'>{projectDialogue.description}</Typography>
             </DialogContent>
             <Typography variant='caption' style={{textAlign:'center'}}>Visit this project by clicking the icons below</Typography>

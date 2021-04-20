@@ -68,6 +68,9 @@
 .projectDialog .projectDialog_icon > .MuiSvgIcon-root {
     font-size: 30px !important;
 }
+.techstack {
+    display: flex;
+}
 .techStack {
     background-color: grey;
     color: white;
