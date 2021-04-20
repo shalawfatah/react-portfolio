@@ -53,12 +53,12 @@ const Portfolio = () => {
         <Dialog open={projectDialogue} onClose={() => setProjectDialogue(false)} className='projectDialog' maxWidth={"lg"} fullWidth>
             <DialogTitle onClose={() => setProjectDialogue(false)}>{projectDialogue.title}</DialogTitle>
             <img src={projectDialogue.image} alt='' className='projectDialog_image' className='projectDialog_image' />
-            {project.stack.map(st => {
-                                                        return (
-                                                            <Typography variant={'body2'} className='techStack'>{st}</Typography>
-                                                        )
-                                                    })}
             <DialogContent>
+            {project.stack.map(st => {
+                            return (
+                                <Typography variant={'body2'} className='techStack'>{st}</Typography>
+                            )
+                        })}
                 <Typography className='projectDialog_description'>{projectDialogue.description}</Typography>
             </DialogContent>
             <Typography variant='caption' style={{textAlign:'center'}}>Visit this project by clicking the icons below</Typography>
