@@ -6,7 +6,8 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import VerticalSplitIcon from '@material-ui/icons/VerticalSplit';
 import AssistantIcon from '@material-ui/icons/Assistant';
 import SettingsIcon from '@material-ui/icons/Settings';
-import { GitHub, Language, ColorLensIcon } from '@material-ui/icons'
+import { GitHub, Language } from '@material-ui/icons'
+import SportsBasketballIcon from '@material-ui/icons/SportsBasketball';
 
 export default {
     name: 'Shalaw Fatah',
@@ -39,7 +40,7 @@ export default {
         Dribbble: {
             link: 'https://dribbble.com/shalaw-fatah',
             text: '@shalaw-fatah',
-            icon: <ColorLensIcon />
+            icon: <SportsBasketballIcon />
         },
     },
     about: "I'm a self taught web developer, with a major focus on front-end development. I love working with Javascript, my favorite library for front-end is React. But enough about coding. What I love more is working with innovative and creative people, people with a grand vision and great inspiration. I love to help those who want to help the community. I want to work on projects that have a clear vision for the betterment of the society. If you have such a project, let me know.",
