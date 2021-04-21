@@ -31,7 +31,7 @@ const Header = (props) => {
                 <div className='header_right'>
                     {Object.keys(resumeData.socials).map(key => {
                         return (
-                        <a style={{width:'50px', height: '50px'}} href={resumeData.socials[key].link} target='_blank'  rel="noreferrer">{resumeData.socials[key].icon}</a>
+                        <a href={resumeData.socials[key].link} target='_blank'  rel="noreferrer">{resumeData.socials[key].icon}</a>
                         )
                     })}
                     <Nav.Link as={NavLink} to='/contact'>
