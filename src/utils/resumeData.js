@@ -145,8 +145,8 @@ export default {
         },
         {
             tag: 'React',
-            image: 'https://cdn.dribbble.com/users/4482322/screenshots/15076759/media/e7a3cf66762beb37318baba4f5bb3bab.png?compress=1&resize=1600x1200',
-            title: 'Profile',
+            image: 'https://dribbble.com/shots/15520834-Mockup-of-my-Portfolio-not-my-design',
+            title: 'Resume Website',
             stack: ['Gatsby', 'Strapi', 'Tailwind'],
             description: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend. The tech used in this project includes major React features like hooks, modular design, API calls, etc.',
             caption: 'This is a statically-generated React portfolio I built with GatsbyJS in the front-end and Strapi CMS in the backend.',
