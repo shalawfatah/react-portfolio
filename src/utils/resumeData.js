@@ -133,7 +133,7 @@ export default {
         },
         {
             tag: 'React',
-            image: 'https://oguzeray.dev/static/aefff29a903fce0f82c62f9833d0db71/b8b33/shiver.webp',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/16052520/media/72319aeb96056bc18aa3eef06910f69c.png?compress=1&resize=400x300',
             title: 'Shiver',
             stack: ['React', 'Typescript', 'Golang', 'PWA', 'Graphql', 'GORM'],
             description: "Shiver is an online community for sharing and enjoying urban legends, mythology, scary stories, the occult and many other facets of human culture.",
