@@ -133,6 +133,18 @@ export default {
         },
         {
             tag: 'React',
+            image: 'https://cdn.dribbble.com/users/4482322/screenshots/15076759/media/e7a3cf66762beb37318baba4f5bb3bab.png?compress=1&resize=1600x1200',
+            title: 'Profile',
+            stack: ['React', 'Typescript', 'Golang', 'PWA', 'Graphql', 'GORM'],
+            description: "Shiver is an online community for sharing and enjoying urban legends, mythology, scary stories, the occult and many other facets of human culture.",
+            caption: 'This is a PWA created with React, Typescript and Golang to share spooky stories.',
+            links: [
+                {link: 'https://shiver-web.vercel.app/', icon: <Language />},
+                {link: 'https://github.com/chalkedgoose/shiver_web', icon: <GitHub />}
+            ]
+        },
+        {
+            tag: 'React',
             image: 'https://cdn.dribbble.com/users/4482322/screenshots/15425359/media/2bb9f97cbff231e0021fe75cb8733481.png?compress=1&resize=1600x1200',
             title: 'Worldwide Bee Website',
             stack: ['Gatsby', 'Leaflet', 'GIS', 'Strapi', 'Tailwind'],
