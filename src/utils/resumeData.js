@@ -12,10 +12,10 @@ import SportsBasketballIcon from '@material-ui/icons/SportsBasketball';
 export default {
     name: 'Shalaw Fatah',
     title: 'Web Developer',
-    birthday: '6th Jan 1988',
+    birthday: '6th Jan',
     email: 'shalaw.fatah@gmail.com',
-    address: 'University Cres, Burnaby, BC',
-    phone: '236-886-5606',
+    address: 'Clark Drive, BC, CA',
+    phone: 'ON REQUEST',
     socials: {
         Facebook: {
             link: 'https://facebook.com/shalawfatah',
